@@ -1,0 +1,123 @@
+body{
+    background-color: #ff5068; 
+}
+
+#espacio1 {
+    border: 3px solid #ff5068;
+
+    padding: 2px 1px 5px 1px;
+    
+    width: 80rem;
+    height: 4rem;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: hsla(350, 100%, 50%, 0.5); /* Color actual */
+    opacity: 0.9; /* Aumenta la opacidad para oscurecerlo */
+    position: relative; /* Añadí position: relative para poder posicionar los bordes blancos correctamente */
+
+}
+
+#espacio1::before,
+#espacio1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 8px; /* Ancho de los bordes blancos, ajusta según sea necesario */
+    background-color: white; /* Color de los bordes blancos */
+}
+
+#espacio1::before {
+    left: -7px; /* Ajusta según el ancho de los bordes blancos */
+}
+
+#espacio1::after {
+    right: -7px; /* Ajusta según el ancho de los bordes blancos */
+}
+.palabra1 { 
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+/*caja 2*/
+
+#espacio2{
+
+  margin-top: 20px;
+
+  border: 3px solid #ff5068;
+
+  padding: 2px 1px 5px 1px;
+
+  width: 81rem;
+  height: 130rem;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: hsla(350, 100%, 50%, 0.5); /* Color actual */
+  opacity: 0.9; /* Aumenta la opacidad para oscurecerlo */
+  position: relative; /* Añadí position: relative para poder posicionar los bordes blancos correctamente */
+}
+.espacio3{ /*espacio en blanco*/
+  border: 3px solid white;
+
+  padding: 2px 1px 5px 1px;
+
+  width: 79rem;
+  height: 61rem;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  
+
+background-color: white;  opacity: 0.9; /* Aumenta la opacidad para oscurecerlo */
+  position: relative; /* Añadí position: relative para poder posicionar los bordes blancos correctamente */
+ }
+
+
+.texto_vendido{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    font-style: normal;
+}
+
+ .imagen1{
+    margin-top: 4px;
+    width: 1263px;
+    height: 650px;
+ }
+
+ .mario_palabra{
+    font-size: 1.1rem;
+    color: red;
+    margin-left: 65rem;
+    font-weight: bold;
+ }
+
+ .boton1{
+    border-radius: 7px;
+    border-color: aliceblue;
+    background-color: green;
+    color: white;
+    margin-left: 35rem;
+    font-size: 2rem;
+    
+ }
+ .boton1:hover{
+    cursor: pointer;
+   background-color: red;
+ }
+
+ h3{
+    color: black;
+ }
